@@ -18,7 +18,7 @@ html {
     margin: 20px;
 }
 
-.material-icons {
+#search-bar .material-icons {
     color: lightgray;
     margin: 8px;
 }
@@ -38,11 +38,59 @@ input {
     text-align: center;
 }
 
-button {
+#buttons button {
     background-color: rgb(240, 240, 240);
     border: none;
     border-radius: 5px;
     color: rgb(95, 95, 95);
     margin: 10px 5px;
     padding: 10px 12px;
+}
+
+nav {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 10px;
+    float: left;
+    height: 40px;
+    align-self: center;
+}
+
+.link {
+    padding-top: 10px;
+}
+
+.link a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+#left-nav {
+    padding-left: 0px;
+}
+
+#apps {
+    padding-top: 5px;
+}
+
+nav button {
+    background-color: rgb(67, 84, 241);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 16px;
 }
