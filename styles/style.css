@@ -88,10 +88,14 @@ li {
     padding-top: 5px;
 }
 
-nav button {
+#signin {
     background-color: rgb(67, 84, 241);
     border: none;
     border-radius: 5px;
     color: white;
     padding: 10px 16px;
+}
+
+#signin:hover {
+    background-color: rgb(60, 121, 233);
 }
